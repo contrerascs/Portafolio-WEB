@@ -15,6 +15,12 @@ function seleccionar(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
+document.getElementById("descargar-cv").addEventListener("click", function() {
+    const link = document.createElement("a");
+    link.href = "CV-SNCC-TV.pdf";  // Ruta del CV
+    link.download = "CV-SNCC-TV.pdf";  // Nombre del archivo a descargar
+    link.click();
+});
 //Funcion que aplica las animaciones de las habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");

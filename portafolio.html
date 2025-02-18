@@ -22,7 +22,7 @@
                     <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">TRAYECTORIA</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#portfolio-videos" onclick="seleccionar()">VIDEOS</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -127,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <button>
+            <button id="descargar-cv">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
@@ -250,13 +250,13 @@
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO NUEVA -->
+    <!-- SECCION PORTFOLIO 2 -->
     <section id="portfolio-nuevo" class="portfolio2">
         <div class="contenido-seccion">
             <h2>Portafolio</h2>
             <h3>Diseñador Gráfico | ConElectric (Instalaciones Eléctricas)</h3>
             <p>Diseñé la identidad visual completa de ConElectric, desarrollando un logotipo profesional y elementos gráficos que reflejan confianza, seguridad y eficiencia en el sector eléctrico.</p>
-            
+            <h4>Identidad Visual</h4>
             <div class="imagenes-grid">
                 <figure>
                     <img src="ConElectric\Logo principal.png" alt="Imagen 1">
@@ -314,8 +314,8 @@
             <div class="proyecto">
                 <div class="info">
                     <h3>Programador | YouTube Video Downloader</h3>
-                    <p>Desarrollé esta aplicación para agilizar el proceso de eliminación de fondos en imágenes, optimizando mi flujo de trabajo en diseño gráfico. La interfaz gráfica, creada con la librería Flet en Python, permite una experiencia sencilla e intuitiva, mientras que la funcionalidad de eliminación de fondo es impulsada por la librería rembg. </p>
-                    <p>Con esta herramienta, puedo obtener imágenes con fondo transparente en segundos, sin depender de servicios en línea, mejorando así la eficiencia en mis proyectos de edición y diseño.</p>
+                    <p>Desarrollé esta aplicación para facilitar la descarga de videos de YouTube a través de una interfaz gráfica intuitiva, creada con la librería Flet en Python. Implementé una API especializada para la descarga de videos.</p>
+                    <p>Esta herramienta es el resultado de mi enfoque en crear soluciones personalizadas que optimicen el flujo de trabajo y resuelvan necesidades específicas de manera eficiente.</p>
                 </div>
                 <div class="visual">
                     <h3>Vista de la Aplicación</h3>
@@ -340,8 +340,8 @@
             <div class="proyecto">
                 <div class="info">
                     <h3>Programador | YouTube Video Downloader</h3>
-                    <p>Desarrollé esta aplicación para facilitar la descarga de videos de YouTube a través de una interfaz gráfica intuitiva, creada con la librería Flet en Python. Implementé una API especializada para la descarga de videos.</p>
-                    <p>Esta herramienta es el resultado de mi enfoque en crear soluciones personalizadas que optimicen el flujo de trabajo y resuelvan necesidades específicas de manera eficiente.</p>
+                    <p>Desarrollé esta aplicación para agilizar el proceso de eliminación de fondos en imágenes, optimizando mi flujo de trabajo en diseño gráfico. La interfaz gráfica, creada con la librería Flet en Python, permite una experiencia sencilla e intuitiva, mientras que la funcionalidad de eliminación de fondo es impulsada por la librería rembg. </p>
+                    <p>Con esta herramienta, puedo obtener imágenes con fondo transparente en segundos, sin depender de servicios en línea, mejorando así la eficiencia en mis proyectos de edición y diseño.</p>
                 </div>
                 <div class="visual">
                     <h3>Identidad Visual</h3>
@@ -359,12 +359,13 @@
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO NUEVA -->
+    <!-- SECCION PORTFOLIO 6 -->
     <section id="portfolio-nuevo" class="portfolio2">
         <div class="contenido-seccion">
             <h2>Portafolio</h2>
-            <h3>Diseñador Gráfico | ConElectric (Instalaciones Eléctricas)</h3>
-            <p>Gestiono la cuenta de Instagram @mr_irrelevant7, donde creo y edito contenido audiovisual sobre la NFL. He logrado alcanzar múltiples videos con más de 300K
+            <h3>Creador de Contenido | Mr. Irrelevant (Instagram y Tiktok)</h3>
+            <p>Actualmente gestiono la cuenta de Instagram <a href="https://www.instagram.com/mr_irrelevant7/" 
+                target="_blank">@mr_irrelevant7</a> donde creo y edito contenido audiovisual sobre la NFL. He logrado alcanzar múltiples videos con más de 300K
                 reproducciones, impulsando el crecimiento y la interacción de la comunidad.</p>
             <h4>Desempeño y Creación de Marca en Mr. Irrelevant</h4>
             <div class="imagenes-grid">
@@ -384,43 +385,28 @@
         </div>
     </section>
 
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
+    <!-- SECCION PORTFOLIO 7 -->
+    <section id="portfolio-videos" class="portfolio7">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Nicaragua 159, San Rafael Mza
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 2384 - 4343443 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <h2>Portafolio</h2>
+            <h3>Creador de Contenido | Mr. Irrelevant (Instagram y Tiktok)</h3>
+            <p>Estos son algunos de los videos con mayor alcance de mi cuenta, videos que consisten en destacar el desempeño de algún jugador que sea de mi agrado.</p>
+            <div class="imagenes-grid">
+                <figure>
+                    <video src="Mr. Irrelevant/Josh Allen.mp4" controls></video>
+                    <figcaption><a href="https://www.instagram.com/reel/DFGTlPEoNQ7/" target="_blank"> Josh Allen
+                        <br> Link de Video completo</a></figcaption>
+                </figure>
+                <figure>
+                    <video src="Mr. Irrelevant/Joe Burrow.mp4" controls></video>
+                    <figcaption><a href="https://www.instagram.com/reel/DEeg2qcoww9/" target="_blank"> Joe Burrow
+                        <br> Link de Video completo</a></figcaption>
+                </figure>
+                <figure>
+                    <video src="Mr. Irrelevant/Saquon Barkley.mp4" controls></video>
+                    <figcaption><a href="https://www.instagram.com/reel/DFyJgWSoa0Z/" target="_blank"> Saquon Barkley
+                        <br> Link de Video completo</a></figcaption>
+                </figure>
             </div>
         </div>
     </section>
@@ -431,11 +417,10 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="https://www.instagram.com/sam.contrerascruz/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/sam.contrerascruz13/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/contrerascs" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/samuel-nicolas-contreras-cruz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
     </footer>
 
