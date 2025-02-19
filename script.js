@@ -17,7 +17,7 @@ function seleccionar(){
 }
 document.getElementById("descargar-cv").addEventListener("click", function() {
     const link = document.createElement("a");
-    link.href = "CV-SNCC-TV.pdf";  // Ruta del CV
+    link.href = "Assets\CV-SNCC-TV.pdf";  // Ruta del CV
     link.download = "CV-SNCC-TV.pdf";  // Nombre del archivo a descargar
     link.click();
 });
