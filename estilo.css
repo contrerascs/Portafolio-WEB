@@ -417,10 +417,18 @@ html{
 }
 /* Estilos base para la sección de portafolio */
 .portfolio {
-    background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
     text-align: center;
+}
+
+/* Alternar colores de fondo */
+.portfolio:nth-child(odd) {
+    background-color: #1e2326; /* Color para secciones impares */
+}
+
+.portfolio:nth-child(even) {
+    background-color: #252A2E; /* Color para secciones pares */
 }
 
 .contenido-seccion {
@@ -613,7 +621,6 @@ figcaption {
         max-width: 100%; /* Cada imagen ocupa todo el ancho en móviles */
     }
 }
-
 figure {
     display: flex;
     flex-direction: column;
@@ -631,7 +638,7 @@ figcaption {
     opacity: 0.8;
 }
 footer{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
