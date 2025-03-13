@@ -305,7 +305,22 @@ html{
 .habilidades .columna{
     width: 48%;
 }
+.habilidades .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+.habilidades .columna .iconos {
+    justify-content: center; /* Centrar los iconos */
+}
 .habilidades .columna h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.habilidades .columna h4{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
